@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.word-dashes {
+  font-size: 144px;
+}
+
+.game-over {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#hangman-img {
+  margin-bottom: 25px;
+}
+
+.word-letter {
+  font-size: 96px;
+  font-weight: 700;
+}
+
+#restartButton {
+  display: none;
+}
